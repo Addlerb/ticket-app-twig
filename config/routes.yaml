@@ -1,5 +1,23 @@
 controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+  resource: ../src/Controller/
+  type: attribute
+
+landing:
+  path: /
+  controller: App\Controller\DefaultController::landing
+
+login:
+  path: /auth/login
+  controller: App\Controller\DefaultController::login
+
+signup:
+  path: /auth/signup
+  controller: App\Controller\DefaultController::signup
+
+dashboard:
+  path: /dashboard
+  controller: App\Controller\DefaultController::dashboard
+
+logout:
+  path: /logout
+  controller: App\Controller\DefaultController::logout
