@@ -1,0 +1,8 @@
+DEST="./dist"
+php index.php > "$DEST/index.html"
+php index.php /auth/login > "$DEST/login.html"
+php index.php /auth/signup > "$DEST/signup.html"
+php index.php /dashboard > "$DEST/dashboard.html"
+cp -r public/assets "$DEST/"
+cp -r public/css "$DEST/" 
+echo "Build complete. Publish directory: dist"

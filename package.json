@@ -1,0 +1,23 @@
+{
+  "name": "ticket-app-twig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Addlerb/ticket-app-twig.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Addlerb/ticket-app-twig/issues"
+  },
+  "homepage": "https://github.com/Addlerb/ticket-app-twig#readme"
+}
